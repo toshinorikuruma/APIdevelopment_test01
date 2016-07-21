@@ -10,6 +10,12 @@ and open the template in the editor.
         <title>社内サイト一覧</title>
     </head>
     <body>
+        <?php
+            echo "社内サイト一覧";
+            echo "<br><br>";
+            // put your code here
+        ?>        
+        
         <table border=1>
             <tr>
                 <th></th><th>アカウント</th><th>パスワード</th>
@@ -21,9 +27,6 @@ and open the template in the editor.
                 <tr><td>行-3</td><td>A-3</td><td>B-3</td>
             </tr>
         </table>        
-        <?php
-            echo "テスト";
-        // put your code here
-        ?>
+
     </body>
 </html>
